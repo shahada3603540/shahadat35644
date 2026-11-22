@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+}
+.contrnar{
+    background: red;
+    width: 1280px;
+    height: 100vh;
+    text-align: center;
+    font-size: 100px;
+    color: white;
+    margin: auto;
+    
+}
+
+
+button{
+    font-size: 100px;
+    border-radius: 20px;
+    text-align: center;
+    background-color: brown;
+    color: bisque;
+    border: none;
+    padding: 20px;
+}
+@media (max-width: 570px) {
+    .contrnar{
+        background: aquamarine;
+        width: 360px;
+
+        
+    }
+     button{
+        display: none;
+     }
+     
+    
+  
+}
